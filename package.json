@@ -1,0 +1,30 @@
+{
+  "name": "todoist",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://anandmv.github.io/react-todoist/",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-datetime": "^2.14.0",
+    "react-day-picker": "^7.1.9",
+    "react-dom": "^16.2.0",
+    "react-notifications": "^1.4.3",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
